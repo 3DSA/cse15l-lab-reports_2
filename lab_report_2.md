@@ -22,15 +22,15 @@ Code:
 PART 2    
 
 Private Key   
-![Image](private_key.java.png)   
+![Image](private_key.png)   
 
 
 Public Key 
-![Image](public_key.java.png)
+![Image](public_key.png)
 
 
 No Password Login   
-![Image](no_pass_login.java.png)
+![Image](no_pass_login.png)
 
 
 
