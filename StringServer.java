@@ -10,9 +10,10 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             StringBuilder response = new StringBuilder();
-           for (int i = 0; i < messages.size(); i++) {
+            for (int i = 0; i < messages.size(); i++) {
                 response.append((i + 1) + ". " + messages.get(i) + "\n");
             }
+            return response.toString();
         } 
         else {
             if (url.getPath().contains("/add-message?s")) {
@@ -20,9 +21,9 @@ class Handler implements URLHandler {
                 messages.add(parameters);
                 StringBuilder response = new StringBuilder();
                 for (int i = 0; i < messages.size(); i++) {
-                response.append((i + 1) + ". " + messages.get(i) + "\n");
-            }
-            return response.toString();   
+                    response.append((i + 1) + ". " + messages.get(i) + "\n");
+                }
+                return response.toString();   
                
             }
             return "404 Not Found!";
