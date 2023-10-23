@@ -14,5 +14,5 @@ Code:
 `Server.java`  
 ![Image](Server.java.png)   
 `StringServer.java`
-![Image](StringServer.png)   
+![Image](StringServer.png)   d
 
