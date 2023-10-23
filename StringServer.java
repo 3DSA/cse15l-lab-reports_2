@@ -1,12 +1,12 @@
 import java.io.IOException;
 import java.net.URI;
+import java.util.*;
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
     int num = 0;
     private static ArrayList<String> messages = new ArrayList<>();
-
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             StringBuilder response = new StringBuilder();
