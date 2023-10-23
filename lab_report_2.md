@@ -25,12 +25,17 @@ Private Key
 ![Image](private_key.png)   
 
 
-Public Key 
-![Image](public_key.png)
+Public Key    
+  ![Image](public_key.png)
 
 
 No Password Login   
-![Image](no_pass_login.png)
+![Image](no_pass_login.png)    
+
+
+Part 3  
+
+In week 3, I learned about the ssh commands, how to start and work with a server, and creat public and private keys. Through servers, I learned how to change paths on a webpage to reflect certain changes. I learned different ways to manipulate a remote computer to login.
 
 
 
