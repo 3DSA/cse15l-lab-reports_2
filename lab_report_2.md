@@ -13,6 +13,6 @@
 Code:  
 `Server.java`  
 ![Image](Server.java.png)   
-`StringServer.java`
+`StringServer.java`  
 ![Image](StringServer.png)   
 
