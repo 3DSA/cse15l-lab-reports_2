@@ -16,7 +16,7 @@ class Handler implements URLHandler {
             return response.toString();
         } 
         else {
-            if (url.getPath().contains("/add-message?")) {
+            if (url.getPath().contains("/add-message")) {
                 String parameters = url.getQuery().split("=")[1];
                 messages.add(parameters);
                 StringBuilder response = new StringBuilder();
