@@ -11,8 +11,9 @@
 3. The values got changed in this request are the spaces(" ") as they became "+" signs for some reason.  
 
 Code:  
-`Server.java`  
-![Image](Server.java.png)   
+`Server.java`    
+![Image](Server.java.png)     
 `StringServer.java`  
-![Image](StringServer.png)   
+
+  ![Image](StringServer.png)   
 
